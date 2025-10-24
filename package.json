@@ -1,0 +1,53 @@
+{
+  "name": "@ssgeek/antdv-table-query-header",
+  "version": "0.0.1",
+  "description": "基于 Ant Design Vue 的通用查询表单组件",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Hargeek/antdv-table-query-header.git"
+  },
+  "keywords": [
+    "vue",
+    "ant-design-vue",
+    "antd",
+    "table",
+    "query",
+    "header"
+  ],
+  "author": "SSgeek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hargeek/antdv-table-query-header/issues"
+  },
+  "homepage": "https://github.com/Hargeek/antdv-table-query-header#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "ant-design-vue": "^4.2.6",
+    "vite": "^7.1.12",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "^3.5.18"
+  },
+  "peerDependencies": {
+    "ant-design-vue": "^4.2.6",
+    "vue": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
